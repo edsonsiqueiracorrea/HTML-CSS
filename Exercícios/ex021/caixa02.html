@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.466);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        article{
+            background-color: darkgray;
+        }
+        article > h2{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: 2em;
+            margin-left: 5px;
+        }
+
+        article > p{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: 1em;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: antiquewhite;
+            padding: 2px;
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link#1</a>
+            <a href="#">Link#2</a>
+            <a href="#">Link#3</a>
+            <a href="#">Link#4</a>
+            <a href="#">Link#5</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política História</p>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sint vitae perspiciatis veritatis quas blanditiis? Dolorum, quod consequuntur. Saepe sunt tenetur laudantium non illum excepturi. Dolorum explicabo repellendus alias error!</p>
+                <aside>
+                    <p>Artigo escrito por Edson Siqueira</p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+        </section>
+    </main>
+
+    <footer>
+        <p>Criado e desenvolvido por Edson Siqueira</p>
+
+    </footer>
+    
+</body>
+</html>
